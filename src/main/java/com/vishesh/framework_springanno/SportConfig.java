@@ -2,9 +2,11 @@ package com.vishesh.framework_springanno;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 // @ComponentScan("com.vishesh.framework_springanno")
+@PropertySource("classpath:sport.properties")
 public class SportConfig {
 
 	// define a bean for sad fortune service
