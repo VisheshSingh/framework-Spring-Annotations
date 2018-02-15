@@ -9,4 +9,9 @@ public class SquashCoach implements Coach {
 		return "Work on your reflexes and be quick...";
 	}
 
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
